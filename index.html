@@ -3,182 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>buss pass application</title>
+    <title>Iframe Tag</title>
 </head>
 <body>
     <center>
-    <img src="./Screenshot 2025-06-23 192446.png">
-    </center>
-    <fieldset>
-        <legend>Applicant Details</legend>
-        <form action="./submit.html" method="get" autocomplete="off">
-            <table width="100%">
-                <tr>
-                    <td>
-                         <label for="name">Name:</label>
-                         <input type="text" id="name" name="Name" autofocus required>
-                    </td>
-                    <td>
-                         <label for="fathers/guardian name">Fathers/Guardian name:</label>
-                         <input type="text" id="fathers/guardian name" name="fathers/guardian name"  required>
-                    </td>
-                </tr>
-                
-                    <tr>
-                        <td>
-                            <label for="Date of Birth">Date of Birth:</label>
-                            <input type="date" id="Date of Birth" name="Date of Birth" required>
-                        </td>
-                        <td>
-                            <lable for="Gender">Gender:</lable>
-                            <input type="radio" id="female" name="Gender" value="female" required>
-                            <label for="female">Female</label>
-                            <input type="radio" id="male" name="Gender" value="male" required>
-                            <label for="male">Male</lable>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="Age">Age:</label>
-                            <input type="number" id="Age" name="Age" required>
-                        </td>
-                        <td>
-                            <label for="Aadhaar No">Aadhaar No:</label>
-                            <input type="text" id="Aadhaar No" name="Aadhaar No" maxlength="12" required>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                           <label for="Whatsapp No">Whatsapp No:</label>
-                           <input type="text" id="Whatsapp No" name="Whatsapp No"maxlength="10" required>
-                        </td>
-                        <td>
-                           <label for="E-mail id">Email-id:</label>
-                           <input type="text" id="E-mail id" name="E-mail id" required> 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="Photo">Photo:</label>
-                            <input type="file" id="file" name="Photo" required>
-                        </td>
-                    </tr>
-            </table>
-           </fieldset>
-           <br>
-           <fieldset>
-          <legend>Residential Address Details</legend>
-           <table width="100%">
-            <tr>
-                <td>
-                    <lable for="Address">Applicant's Address:</lable>
-                    <textarea id="Address" name="address"></textarea>
-                </td>
-                <td>
-                   <lable for="district">District:</lable>
-                   <select name="district" id="district">
-                    <option value="Hyderabad">Hyderabad</option>
-                    <option value="Nalgonda">Nalgonda</option>
-                    <option value="Suryapet">Suryapet</option>
-                   </select> 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                   <lable for="mandal">Mandal:</lable> 
-                   <select name="mandal" id="mandal">
-                    <option value="Hyderabad">Hyderabad</option>
-                    <option value="kodad">kodad</option>
-                    <option value="Suryapet">Suryapet</option>
-                   </select> 
-                </td>
-                <td>
-                   <lable for="village">Village:</lable>
-                    <select name="village" id="village">
-                    <option value="shantinagar">shantinagar</option>
-                    <option value="Ananthagiri">Ananthagiri</option>
-                    <option value="Suryapet">Suryapet</option>
-                   </select> 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <lable for="pincode">Pincode:</lable>
-                    <input type="text" id="text" name="Photo" required>
-                </td>
-            </tr>
-         </table>
-         </fieldset>
-         <fieldset>
-          <legend>Pass type Deatils</legend>
-           <table width="100%">
-         <tr>
-            <td>
-                <label for="city">City:</label>
-                <select name="city" id="city">
-                    <option value="Hyderabad">Hyderabad</option>
-                    <option value="Nalgonda">Nalgonda</option>
-                    <option value="Suryapet">Suryapet</option>
-                   </select>
-            </td>
-          </tr>
-          <tr>
-            <td>
-                <label for="pass type">Pass Type:</label>
-                <select name="pass type" id="pass type">
-                    <option value="regular pass">Regular pass</option>
-                    <option value="premium pass">Premium pass</option>
-                    <option value="Absolute pass">Absolute pass</option>
-                   </select>
-            </td>
-         </tr>
-         </table>
-         </fieldset>
-         <fieldset>
-         <legend>Mode of payment & Pass Collection</legend>
-         <table width="100%">
-            <tr>
-                <td>
-                   <label for="payment">Payment mode:</label>
-                   <select name="payment" id="payment">
-                    <option value="online">Online Mode</option>
-                    <option value="offline">offline Mode</option>
-                   </select>
-                </td>
-            </tr>    
-            <tr>    
-                <td>
-                    <label for="delivery">Pass Delivery mode:</label>
-                    <select name="delivery" id="delivery">
-                    <option value="counter">At Counter</option>
-                    <option value="post">By Post</option>
-                   </select>
-                </td>
-            </tr>
-             <tr>
-                <td>
-                    <label for="colect">Pass Collection place</label>
-                    <select name="collect" id="collect">
-                    <option value="Hyderabad">Hyderabad</option>
-                    <option value="Khammam">Nalgonda</option>
-                    <option value="Suryapet">Suryapet</option>
-                   </select>
-                </td>
-             </tr>
-            </table>
-         </fieldset>
-          <br>
-         <center>
-            <label for="captcha">captcha:</label>
-         <descrption>ffctfgy </descrption>
-         <br>
-         <br>
-         <input type="text" required>
-         <br>
-         <br>
-         <input type="submit" value="submit">
-         </center>
-        </form>
-       
+    <!-- YouTube Autoplay Video -->
+    <iframe 
+        name="YS JAGAN-SONG" 
+        frameborder="1" 
+        width="560" 
+        height="315"
+        src="https://www.youtube.com/embed/egkFRs01xPA?autoplay=1&mute=1"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+    </iframe>
+    <br>
+
+    <!-- Optional: YouTube Button (if you want to allow replay manually) -->
+    <a href="https://www.youtube.com/embed/egkFRs01xPA?autoplay=1&mute=1" title="YouTube" target="YS JAGAN-SONG">
+        <img src="./youtube image.jpg" alt="youtube" width="60">
+    </a>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <!-- Google Maps Button -->
+    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30524.02000067663!2d79.94195940157395!3d16.99900461467598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3502557bd86187%3A0x2d61225ca7dbad8f!2sKodad%2C%20Telangana%20508206!5e0!3m2!1sen!2sin!4v1750338676994!5m2!1sen!2sin"
+       title="Maps" target="YS JAGAN-SONG">
+        <img src="./map.jpeg" alt="Maps" width="40">
+    </a>
+</center>
+
 </body>
 </html>
